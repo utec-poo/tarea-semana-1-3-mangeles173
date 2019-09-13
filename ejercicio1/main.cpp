@@ -4,10 +4,10 @@ using namespace std;
 
 int main() {
 
-entero base=0, entero altura=0;
-cout << "\ningrese la base:";
+int base=0, int altura=0;
+cout << "Ingrese la base: \n";
 cin >> base;
-cout << "\ningrese la altura:";
+cout << "Ingrese la altura: \n";
 cin >> altura;
 
 
