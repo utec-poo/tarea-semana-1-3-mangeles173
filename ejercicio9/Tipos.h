@@ -1,10 +1,14 @@
-//
-// Reemplazar PROYNAME por el nombre en mayusculas de su proyecto creado en CLION para resolver el problema.
-//
+#ifndef TIEMPO_VARIABLES
+#define TIEMPO_VARIABLES
+#include <iostream>
+using namespace std;
 
-#ifndef PROYNAME_TIPOS_H
-#define PROYNAME_TIPOS_H
+typedef double Tipo_double;
 
-typedef int enteros;
-typdef char caracter;
-#endif //PROYNAME_TIPOS_H
+Tipo_double Convertirhor(Tipo_double num,Tipo_double hor);
+
+Tipo_double Convertirmin(Tipo_double num,Tipo_double min, Tipo_double hor);
+
+Tipo_double Convertirseg(Tipo_double num,Tipo_double seg, Tipo_double hor, Tipo_double min);
+
+#endif //TIEMPO_VARIABLES
